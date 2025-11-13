@@ -1,35 +1,13 @@
-# Autumn's Minecraft Modding Template
+# Dimension Stacker
 
-### Overview
+### To-Do
 
-A fully operational Minecraft mod template for Fabric and NeoForge, with NeoForge Data Generation already configured.
-
-### Setup
-
-1. Generate a GitHub repository from this template.
-2. Clone your repository and open it in your preferred IDE.
-3. Change the mod's name in all of these files:
-   - build.gradle (line 12)
-   - gradle.properties (lines 6, 11, and 13)
-   - settings.gradle (line 49)
-   - com.atom596.dimstack.DimStack (lines 7 and 8)
-4. Replace "EmpressAutumn" with your username in these files:
-   - gradle.properties (line 12)
-   - com.atom596.dimstack.DimStackFabric (line 10)
-   - com.atom596.dimstack.TemplateNeoForge (line 10)
-5. Change the name of these files to match your mod:
-   - common/src/main/resources/template.mixins.json
-   - fabric/src/main/resources/template.fabric.mixins.json
-   - fabric/src/main/resources/services/com.atom596.dimstack.platform.services.IPlatformHelper
-   - neoforge/src/main/resources/template.neoforge.mixins.json
-   - neoforge/src/main/resources/services/com.atom596.dimstack.platform.services.IPlatformHelper
-6. Change these classes to match your mod's name:
-   - com.atom596.dimstack.DimStack
-   - com.atom596.dimstack.DimStackFabric
-   - com.atom596.dimstack.DimStackDataGenerator
-   - com.atom596.dimstack.TemplateNeoForge
-7. Change the name of the package com.atom596.dimstack to match your username and mod's name
-8. Enjoy adding content to your mod!
+- [ ] Seamlessly stack multiple dimensions as if they were a single dimension
+- [ ] Load stacking information from a datapack
+- [ ] Optionally swap bedrock with other blocks at dimension boundaries
+- [ ] Create "border regions" with width scaling between dimensions
+- [ ] Allow for intra-dimensional portals (look at Immersive Portals code)
+- [ ] Use cubic chunks for better performance
 
 ### License
-This mod template is available under the CC0 license.
+This mod is available under the CC0 license.
