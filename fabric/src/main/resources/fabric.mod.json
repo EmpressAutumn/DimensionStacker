@@ -9,14 +9,14 @@
     ],
     "contact": {
         "homepage": "https://discord.gg/aYSrVpxgMW",
-        "sources": "https://github.com/EmpressAutumn/Autumn-Template-Mod"
+        "sources": "https://github.com/EmpressAutumn/DimensionStacker"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.atom596.template.TemplateFabric"
+            "com.atom596.dimstack.DimStackFabric"
         ]
     },
     "mixins": [

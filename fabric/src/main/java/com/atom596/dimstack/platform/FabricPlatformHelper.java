@@ -1,6 +1,6 @@
-package com.atom596.template.platform;
+package com.atom596.dimstack.platform;
 
-import com.atom596.template.platform.services.IPlatformHelper;
+import com.atom596.dimstack.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

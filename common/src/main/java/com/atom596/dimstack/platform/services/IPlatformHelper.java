@@ -1,4 +1,4 @@
-package com.atom596.template.platform.services;
+package com.atom596.dimstack.platform.services;
 
 public interface IPlatformHelper {
     String getPlatformName();

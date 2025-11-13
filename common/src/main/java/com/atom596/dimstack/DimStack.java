@@ -1,11 +1,11 @@
-package com.atom596.template;
+package com.atom596.dimstack;
 
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.LoggerFactory;
 
-public class Template {
-	public static final String MOD_ID = "template";
-	public static final String MOD_NAME = "Template";
+public class DimStack {
+	public static final String MOD_ID = "dimstack";
+	public static final String MOD_NAME = "Dimension Stacker";
 	public static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
 	public static void initialize() {}

@@ -1,7 +1,7 @@
-package com.atom596.template.platform;
+package com.atom596.dimstack.platform;
 
-import com.atom596.template.Template;
-import com.atom596.template.platform.services.IPlatformHelper;
+import com.atom596.dimstack.DimStack;
+import com.atom596.dimstack.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
@@ -12,7 +12,7 @@ public class Services {
         final T loadedService = ServiceLoader.load(clazz)
                 .findFirst()
                 .orElseThrow(() -> new NullPointerException("Failed to load service for " + clazz.getName()));
-        Template.LOGGER.debug("Loaded {} for service {}", loadedService, clazz);
+        DimStack.LOGGER.debug("Loaded {} for service {}", loadedService, clazz);
         return loadedService;
     }
 }
